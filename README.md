@@ -9,7 +9,7 @@ To test the application do the following:
 4. Return back to SortBigTextFile.java, uncomment lines 30-49, and comment line 52.
 5. Run the program using one of the following ways:
 
-    a.) If you are using Intellij Idea or Eclipse IDE, edit configuration and set this VM option: -Xmx100m
+    a.) If you are using Intellij Idea or Eclipse IDE, edit configuration, set "-Xmx100m" VM option, and press the Run button
     
     b.) Open the root directory in terminal, hit mvn clean install to create a jar file, and run that file like this: java -Xmx100m -jar sort-big-text-file-1.0-SNAPSHOT
     
