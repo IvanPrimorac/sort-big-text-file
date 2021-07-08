@@ -11,6 +11,6 @@ To test the application do the following:
 
     a.) If you are using Intellij Idea or Eclipse IDE, edit configuration, set "-Xmx100m" VM option, and press the Run button
     
-    b.) Open the root directory in terminal, hit mvn clean install to create a jar file, and run that file like this: java -Xmx100m -jar sort-big-text-file-1.0-SNAPSHOT
+    b.) Open the project root directory in terminal, hit mvn clean install to create a jar file, and run that file like this: java -Xmx100m -jar sort-big-text-file-1.0-SNAPSHOT
     
 6. Wait for 10-20 minutes because this is a lot of work, and a new file named "result" will be created containing a 1GB file with sorted numbers inside.
